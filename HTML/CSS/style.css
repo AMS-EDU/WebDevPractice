@@ -1,6 +1,9 @@
+/* *{} (astrics) is style for ALL elements, like dot(.) in git */
+
+
 body{
     background-color: #fafafa;
-    color: #555555;
+    color: #494949;
     
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -10,4 +13,48 @@ body{
     */
 
     line-height: 25px;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.box-1{
+    background-color: #333;
+    color: #fff;
+
+    /* border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid; */
+
+    /* Same as above */
+    border: 5px red solid;
+    padding: 20px;
+    margin: 20px 0;
+
+}
+
+.box-1 h1 {
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2 {
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories {
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
 }
